@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B68609418286FCF008FBEF6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B68609318286FCF008FBEF6 /* Book.m */; };
 		0B973A2F1820031C005E1108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A2E1820031C005E1108 /* Foundation.framework */; };
 		0B973A311820031C005E1108 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A301820031C005E1108 /* CoreGraphics.framework */; };
 		0B973A331820031C005E1108 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A321820031C005E1108 /* UIKit.framework */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B68609218286FCF008FBEF6 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		0B68609318286FCF008FBEF6 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		0B6860951828761E008FBEF6 /* BookManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookManagerProtocol.h; sourceTree = "<group>"; };
 		0B973A2B1820031C005E1108 /* Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B973A2E1820031C005E1108 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B973A301820031C005E1108 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,6 +88,9 @@
 		0B973A221820031B005E1108 = {
 			isa = PBXGroup;
 			children = (
+				0B68609218286FCF008FBEF6 /* Book.h */,
+				0B6860951828761E008FBEF6 /* BookManagerProtocol.h */,
+				0B68609318286FCF008FBEF6 /* Book.m */,
 				0B973A361820031C005E1108 /* Task1 */,
 				0B973A531820031D005E1108 /* Task1Tests */,
 				0B973A2D1820031C005E1108 /* Frameworks */,
@@ -248,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B68609418286FCF008FBEF6 /* Book.m in Sources */,
 				0B973A411820031D005E1108 /* AppDelegate.m in Sources */,
 				0B973A441820031D005E1108 /* Task1.xcdatamodeld in Sources */,
 				0B973A3D1820031D005E1108 /* main.m in Sources */,
@@ -451,6 +459,7 @@
 				0B973A5F1820031D005E1108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B973A601820031D005E1108 /* Build configuration list for PBXNativeTarget "Task1Tests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				0B973A621820031D005E1108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
