@@ -12,7 +12,7 @@
 
 @synthesize author = _author, title = _title, isbn = _isbn, course = _course, price = _price;
 
-- (id) initWithAuthor:(NSString *)author :(NSString *)title :(NSString *)isbn :(NSString *)course :(NSInteger *)price
+- (id) initWithAuthor:(NSString *)author :(NSString *)title :(NSString *)isbn :(NSString *)course :(NSUInteger)price
 {
     self = [super init];
     if (self)

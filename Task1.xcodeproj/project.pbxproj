@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B68609418286FCF008FBEF6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B68609318286FCF008FBEF6 /* Book.m */; };
+		0B74170A182A6C6300B1DC92 /* SimpleBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B741709182A6C6300B1DC92 /* SimpleBookManager.m */; };
 		0B973A2F1820031C005E1108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A2E1820031C005E1108 /* Foundation.framework */; };
 		0B973A311820031C005E1108 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A301820031C005E1108 /* CoreGraphics.framework */; };
 		0B973A331820031C005E1108 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A321820031C005E1108 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		0B68609218286FCF008FBEF6 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		0B68609318286FCF008FBEF6 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		0B6860951828761E008FBEF6 /* BookManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookManagerProtocol.h; sourceTree = "<group>"; };
+		0B741708182A6C6300B1DC92 /* SimpleBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBookManager.h; sourceTree = "<group>"; };
+		0B741709182A6C6300B1DC92 /* SimpleBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBookManager.m; sourceTree = "<group>"; };
 		0B973A2B1820031C005E1108 /* Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B973A2E1820031C005E1108 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B973A301820031C005E1108 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,8 @@
 		0B973A221820031B005E1108 = {
 			isa = PBXGroup;
 			children = (
+				0B741708182A6C6300B1DC92 /* SimpleBookManager.h */,
+				0B741709182A6C6300B1DC92 /* SimpleBookManager.m */,
 				0B68609218286FCF008FBEF6 /* Book.h */,
 				0B6860951828761E008FBEF6 /* BookManagerProtocol.h */,
 				0B68609318286FCF008FBEF6 /* Book.m */,
@@ -258,6 +263,7 @@
 				0B68609418286FCF008FBEF6 /* Book.m in Sources */,
 				0B973A411820031D005E1108 /* AppDelegate.m in Sources */,
 				0B973A441820031D005E1108 /* Task1.xcdatamodeld in Sources */,
+				0B74170A182A6C6300B1DC92 /* SimpleBookManager.m in Sources */,
 				0B973A3D1820031D005E1108 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

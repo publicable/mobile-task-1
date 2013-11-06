@@ -14,8 +14,8 @@
 @property (nonatomic, strong) NSString* title;
 @property (nonatomic, strong) NSString* isbn;
 @property (nonatomic, strong) NSString* course;
-@property NSInteger* price;
+@property NSUInteger price;
 
-- (id)initWithAuthor:(NSString *)author :(NSString *)title :(NSString *)isbn :(NSString *)course :(NSInteger *)price;
+- (id)initWithAuthor:(NSString *)author :(NSString *)title :(NSString *)isbn :(NSString *)course :(NSUInteger)price;
 
 @end

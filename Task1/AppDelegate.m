@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SimpleBookManager.h"
 
 @implementation AppDelegate
 
@@ -20,6 +21,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [[SimpleBookManager alloc] init];
+    
     return YES;
 }
 
