@@ -60,7 +60,7 @@
             :price
         ];
     
-    NSLog(@"Book created: %@", title);
+    NSLog(@"Book created: %@, %d", title, price);
     [bookArray addObject: book];
     
     return book;
@@ -80,9 +80,9 @@
 {
     int i;
     NSUInteger minPrice = MAX_INPUT;
-    for (i = 0; i <= [bookArray count]; i++)
+    for (i = 0; i < [bookArray count]; i++)
     {
-        NSUInteger price = [[bookArray objectAtIndex:i] integerForKey:@"price"];
+        NSUInteger price = [[bookArray objectAtIndex:i] price];
         if (price < minPrice)
         {
             minPrice = price;
@@ -96,9 +96,9 @@
 {
     int i;
     NSUInteger maxPrice = 0;
-    for (i = 0; i <= [bookArray count]; i++)
+    for (i = 0; i < [bookArray count]; i++)
     {
-        NSUInteger price = [[bookArray objectAtIndex:i] integerForKey:@"price"];
+        NSUInteger price = [[bookArray objectAtIndex:i] price];
         if (price > maxPrice)
         {
             maxPrice = price;
@@ -122,9 +122,9 @@
 {
     int i;
     NSUInteger totalPrice = 0;
-    for (i = 0; i <= [bookArray count]; i++)
+    for (i = 0; i < [bookArray count]; i++)
     {
-        totalPrice += [[bookArray objectAtIndex:i] integerForKey:@"price"];
+        totalPrice += [[bookArray objectAtIndex:i] price];
     }
     
     return totalPrice;
@@ -132,14 +132,10 @@
 
 - (CGFloat)meanPrice
 {
-    int i;
-    int totalPrice = 0;
-    for (i = 0; i <= [bookArray count]; i++)
-    {
-        totalPrice += [[bookArray objectAtIndex:i] integerForKey:@"price"];
-    }
+    NSUInteger totalPrice = [self totalCost];
+    NSUInteger count = [self count];
     
-    return totalPrice / [bookArray count];
+    return totalPrice / count;
 }
 
 - (NSUInteger)count
