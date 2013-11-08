@@ -26,6 +26,8 @@
         return nil;
     }
     
+    bookArray = [NSMutableArray array];
+    
     int i;
     for (i = 1; i <=5; i++) {
         [self createBook];

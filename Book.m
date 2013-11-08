@@ -15,7 +15,7 @@
 - (id) initWithAuthor:(NSString *)author :(NSString *)title :(NSString *)isbn :(NSString *)course :(NSUInteger)price
 {
     self = [super init];
-    if (self)
+    if ( ! self)
     {
         return nil;
     }

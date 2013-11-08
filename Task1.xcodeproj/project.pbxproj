@@ -24,6 +24,8 @@
 		0B973A501820031D005E1108 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B973A341820031C005E1108 /* CoreData.framework */; };
 		0B973A581820031D005E1108 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B973A561820031D005E1108 /* InfoPlist.strings */; };
 		0B973A5A1820031D005E1108 /* Task1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B973A591820031D005E1108 /* Task1Tests.m */; };
+		0BE71641182D04CF0049CE4D /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7163F182D04CF0049CE4D /* BookDetailViewController.m */; };
+		0BE71642182D04CF0049CE4D /* BookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE71640182D04CF0049CE4D /* BookDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		0B973A551820031D005E1108 /* Task1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Task1Tests-Info.plist"; sourceTree = "<group>"; };
 		0B973A571820031D005E1108 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B973A591820031D005E1108 /* Task1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task1Tests.m; sourceTree = "<group>"; };
+		0BE7163E182D04CE0049CE4D /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		0BE7163F182D04CF0049CE4D /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		0BE71640182D04CF0049CE4D /* BookDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,9 @@
 		0B973A221820031B005E1108 = {
 			isa = PBXGroup;
 			children = (
+				0BE7163E182D04CE0049CE4D /* BookDetailViewController.h */,
+				0BE7163F182D04CF0049CE4D /* BookDetailViewController.m */,
+				0BE71640182D04CF0049CE4D /* BookDetailViewController.xib */,
 				0B741708182A6C6300B1DC92 /* SimpleBookManager.h */,
 				0B741709182A6C6300B1DC92 /* SimpleBookManager.m */,
 				0B68609218286FCF008FBEF6 /* Book.h */,
@@ -242,6 +250,7 @@
 			files = (
 				0B973A3B1820031C005E1108 /* InfoPlist.strings in Resources */,
 				0B973A461820031D005E1108 /* Images.xcassets in Resources */,
+				0BE71642182D04CF0049CE4D /* BookDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 			files = (
 				0B68609418286FCF008FBEF6 /* Book.m in Sources */,
 				0B973A411820031D005E1108 /* AppDelegate.m in Sources */,
+				0BE71641182D04CF0049CE4D /* BookDetailViewController.m in Sources */,
 				0B973A441820031D005E1108 /* Task1.xcdatamodeld in Sources */,
 				0B74170A182A6C6300B1DC92 /* SimpleBookManager.m in Sources */,
 				0B973A3D1820031D005E1108 /* main.m in Sources */,
