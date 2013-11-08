@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "SimpleBookManager.h"
-#import "BookDetailViewController.h"
 
 @implementation AppDelegate
 
@@ -23,14 +22,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    BookDetailViewController *viewController = [[BookDetailViewController alloc]
-                                                initWithNibName:@"BookDetailViewController" bundle:nil];
-    self.window.rootViewController = viewController;
-    
-    SimpleBookManager *bookManager = [[SimpleBookManager alloc] init];
-    Book *sampleBook = [bookManager bookAtIndex:0];
-    [viewController setBook:sampleBook];
-    
+    [[SimpleBookManager alloc] init];
     
     return YES;
 }
